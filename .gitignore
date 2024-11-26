@@ -1,0 +1,21 @@
+# Ignore virtual environment
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore all CSV files in the /transactions folder
+transactions/*.csv
+
+# Ignore specific files
+test.ipynb
+transactions_for_labelling.xlsx
+transactions.db
+
+# Ignore fitted pipelines
+preprocess_pipeline_fitted.pkl
+temp_preprocess_pipeline_fitted.pkl
+
+# Ignore models
+models/
+temp_models/
